@@ -1,0 +1,21 @@
+{
+  "name": "backend-santa-biblia",
+  "version": "1.0.0",
+  "description": "backend de la app Santa Biblia",
+  "main": "index.js",
+  "scripts": {
+    "tsc" : "tsc",
+    "start": "node ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "express": "4.19.1"
+  }
+}
